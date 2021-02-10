@@ -1,0 +1,23 @@
+header {
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 40px 0 40px;
+    /* border: 1px solid red; */
+}
+
+footer {
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 40px 0 40px;
+}
+
+main {
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 40px 0 40px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1em;
+}
