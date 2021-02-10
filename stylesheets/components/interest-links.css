@@ -1,0 +1,62 @@
+.interest-bar {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 0.75fr;
+  grid-template-rows: 1fr;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 20px;
+}
+
+.interest-bar_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.interest-bar_article {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.interest-bar_headline {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.interest-bar_story {
+  font-size: 12px;
+}
+
+.interest-bar_stock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* border-right: 1px solid #e2e2e2;
+  border-left: 1px solid #e2e2e2; */
+}
+
+.interest-bar_stock-price {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  border-bottom: 1px solid #e2e2e2;
+  width: 75%;
+  position: relative;
+  background-color: white;
+  top: 1px;
+
+}
+
+.interest-bar_price {
+  font-weight: bold;
+  color: green;
+}
+
+.interest-bar_big-text {
+  font-weight: bold;
+}
